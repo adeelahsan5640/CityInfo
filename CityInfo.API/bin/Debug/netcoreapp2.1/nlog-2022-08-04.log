@@ -1,0 +1,480 @@
+2022-08-04 03:22:18.5342|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 03:22:19.1029|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 03:22:19.1029|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 03:22:19.1595|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 63.102ms 200 
+2022-08-04 03:22:19.2910|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 198.0933ms 404 text/plain
+2022-08-04 03:22:19.3931|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2022-08-04 03:22:19.3931|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.4754ms 404 text/plain
+2022-08-04 03:22:20.1733|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/10/pointsofinterest/  
+2022-08-04 03:22:20.2418|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-08-04 03:22:20.2769|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) - Validation state: Valid
+2022-08-04 03:22:20.2829|INFO|CityInfo.API.Controllers.PointsOfInterestController|City with id 10 wasn't found when accessing points of interest.
+2022-08-04 03:22:20.2829|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 6.0771ms.
+2022-08-04 03:22:20.2990|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2022-08-04 03:22:20.2990|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 58.0049ms
+2022-08-04 03:22:20.3128|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 144.1593ms 404 text/plain
+2022-08-04 03:22:27.0401|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/10/pointsofinterest/  
+2022-08-04 03:22:27.0572|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-08-04 03:22:27.0634|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) - Validation state: Valid
+2022-08-04 03:22:27.0634|INFO|CityInfo.API.Controllers.PointsOfInterestController|City with id 10 wasn't found when accessing points of interest.
+2022-08-04 03:22:27.0634|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 6.9198ms.
+2022-08-04 03:22:27.0792|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2022-08-04 03:22:27.1152|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 22.1671ms
+2022-08-04 03:22:27.1260|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.351ms 404 text/plain
+2022-08-04 03:22:34.8042|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/10/pointsofinterest/  
+2022-08-04 03:22:34.8042|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-08-04 03:22:34.8042|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) - Validation state: Valid
+2022-08-04 03:22:34.8098|INFO|CityInfo.API.Controllers.PointsOfInterestController|City with id 10 wasn't found when accessing points of interest.
+2022-08-04 03:22:34.8098|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 1.5388ms.
+2022-08-04 03:22:34.8098|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2022-08-04 03:22:34.8098|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 6.8785ms
+2022-08-04 03:22:34.8098|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.6799ms 404 text/plain
+2022-08-04 03:22:54.9117|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/10/pointsofinterest  
+2022-08-04 03:22:54.9194|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-08-04 03:22:54.9194|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) - Validation state: Valid
+2022-08-04 03:22:54.9194|INFO|CityInfo.API.Controllers.PointsOfInterestController|City with id 10 wasn't found when accessing points of interest.
+2022-08-04 03:22:54.9194|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 2.4289ms.
+2022-08-04 03:22:54.9194|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2022-08-04 03:22:54.9194|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 9.1922ms
+2022-08-04 03:22:54.9194|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.9528ms 404 text/plain
+2022-08-04 03:23:45.6228|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/10/pointsofinterest  
+2022-08-04 03:23:45.6228|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-08-04 03:23:45.6455|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) - Validation state: Valid
+2022-08-04 03:23:45.6455|INFO|CityInfo.API.Controllers.PointsOfInterestController|City with id 10 wasn't found when accessing points of interest.
+2022-08-04 03:23:45.6455|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 3.7084ms.
+2022-08-04 03:23:45.6566|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2022-08-04 03:23:45.6566|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 15.2732ms
+2022-08-04 03:23:45.6566|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.2256ms 404 text/plain
+2022-08-04 03:24:54.5783|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 03:24:55.1688|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 03:24:55.1688|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 03:24:55.2158|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.1974ms 200 
+2022-08-04 03:24:55.3700|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 205.6271ms 404 text/plain
+2022-08-04 03:24:55.4656|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2022-08-04 03:24:55.4687|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.5752ms 404 text/plain
+2022-08-04 03:24:56.9616|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/10/pointsofinterest  
+2022-08-04 03:24:56.9985|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-08-04 03:24:57.0281|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) - Validation state: Valid
+2022-08-04 03:24:57.0830|FATAL|CityInfo.API.Controllers.PointsOfInterestController|Exception while getting points of interest for city with id 10.
+2022-08-04 03:24:57.0830|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 54.8626ms.
+2022-08-04 03:24:57.0991|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2022-08-04 03:24:57.1070|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 102.8503ms
+2022-08-04 03:24:57.1070|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 155.3351ms 500 text/plain; charset=utf-8
+2022-08-04 03:33:11.0712|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 03:33:12.5858|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 03:33:13.3620|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 03:33:13.3620|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 03:33:13.4336|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 69.6643ms 200 
+2022-08-04 03:33:13.5859|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 230.3016ms 404 text/plain
+2022-08-04 03:33:13.6910|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2022-08-04 03:33:13.7055|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.0168ms 404 text/plain
+2022-08-04 03:53:36.1578|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 03:53:38.1373|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 03:53:39.0711|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 03:53:39.0711|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 03:53:39.1460|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 80.2826ms 200 
+2022-08-04 03:53:39.3273|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 267.8993ms 404 text/plain
+2022-08-04 03:53:39.4294|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2022-08-04 03:53:39.4368|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.1205ms 404 text/plain
+2022-08-04 03:53:51.0810|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 03:53:51.1198|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-08-04 03:53:51.1570|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2022-08-04 03:53:51.1736|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 11.8561ms.
+2022-08-04 03:53:51.1736|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2022-08-04 03:53:51.1859|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 61.9894ms
+2022-08-04 03:53:51.1859|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 111.4884ms 204 
+2022-08-04 04:25:20.4715|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 04:25:22.1042|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 04:25:22.8672|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 04:25:22.8672|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 04:25:22.9260|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 58.4215ms 200 
+2022-08-04 04:25:23.0654|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 201.0223ms 404 text/plain
+2022-08-04 04:25:23.1454|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2022-08-04 04:25:23.1454|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.1895ms 404 text/plain
+2022-08-04 04:25:37.3136|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 04:25:37.3606|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-08-04 04:25:37.3959|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2022-08-04 04:25:37.4181|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 15.4276ms.
+2022-08-04 04:25:37.4307|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2022-08-04 04:25:37.4370|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 70.8993ms
+2022-08-04 04:25:37.4370|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 131.6521ms 204 
+2022-08-04 04:36:11.4100|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 04:36:13.3888|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 04:36:14.0827|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 04:36:14.0827|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 04:36:14.1431|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 62.9656ms 200 
+2022-08-04 04:36:14.3121|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 233.917ms 404 text/plain
+2022-08-04 04:36:14.4209|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2022-08-04 04:36:14.4209|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.1357ms 404 text/plain
+2022-08-04 04:36:39.5807|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 04:36:39.6333|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-08-04 04:36:39.6742|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2022-08-04 04:36:39.6917|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 11.7637ms.
+2022-08-04 04:36:39.7030|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2022-08-04 04:36:39.7030|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 70.6541ms
+2022-08-04 04:36:39.7191|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 139.1583ms 204 
+2022-08-04 04:44:05.1232|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 04:44:07.0829|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 04:44:07.7482|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 04:44:07.7482|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 04:44:07.7482|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 04:44:07.8283|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 87.9682ms 200 
+2022-08-04 04:44:08.0509|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 315.7413ms 404 text/plain
+2022-08-04 04:44:08.1214|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-08-04 04:44:08.1798|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2022-08-04 04:44:08.2043|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 17.6598ms.
+2022-08-04 04:44:08.2214|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2022-08-04 04:44:08.2214|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.1376ms 404 text/plain
+2022-08-04 04:44:08.2316|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2022-08-04 04:44:08.2316|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 110.915ms
+2022-08-04 04:44:08.2485|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 514.5196ms 204 
+2022-08-04 04:45:35.8197|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 04:45:38.0997|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 04:45:38.6183|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception|System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' option must be set in 'UseExceptionHandler()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticSource diagnosticSource)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2022-08-04 04:45:39.0085|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 04:45:39.0085|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 04:45:39.0085|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 04:45:39.0576|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 61.2078ms 500 
+2022-08-04 04:45:39.0576|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 61.2076ms 500 
+2022-08-04 04:45:39.0698|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJLL92F9S7G", Request id "0HMJLL92F9S7G:00000001": An unhandled exception was thrown by the application.|System.InvalidOperationException: Writing to the response body is invalid for responses with status code 500.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.Extensions.RazorViews.BaseView.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-04 04:45:39.0785|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 79.8927ms 500 text/html; charset=utf-8
+2022-08-04 04:45:45.2786|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 04:45:45.2786|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.9624ms 500 text/html; charset=utf-8
+2022-08-04 04:46:03.3762|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 04:46:03.3762|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.4278ms 500 text/html; charset=utf-8
+2022-08-04 04:46:40.9874|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 04:46:40.9874|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.8557ms 500 text/html; charset=utf-8
+2022-08-04 04:46:55.6148|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 04:46:55.6289|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.7836ms 500 text/html; charset=utf-8
+2022-08-04 04:47:10.5953|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 04:47:12.6713|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 04:47:13.0887|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception|System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' option must be set in 'UseExceptionHandler()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticSource diagnosticSource)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2022-08-04 04:47:13.4002|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 04:47:13.4002|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 04:47:13.4333|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 41.6692ms 500 text/html; charset=utf-8
+2022-08-04 04:47:13.4642|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJLL9UK454S", Request id "0HMJLL9UK454S:00000001": An unhandled exception was thrown by the application.|System.ObjectDisposedException: Cannot write to the response body, the response has completed.
+Object name: 'HttpResponseStream'.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.ValidateState(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Dispose(Boolean disposing)
+   at System.IO.TextWriter.Dispose()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-04 04:47:13.4745|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 84.3953ms 500 
+2022-08-04 04:47:16.9578|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 04:47:16.9675|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.7294ms 500 text/html; charset=utf-8
+2022-08-04 04:48:13.6988|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 04:48:15.8752|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 04:48:16.3297|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception|System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' option must be set in 'UseExceptionHandler()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticSource diagnosticSource)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2022-08-04 04:48:16.6249|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 04:48:16.6249|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 04:48:16.6464|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJLLAHF8H7B", Request id "0HMJLLAHF8H7B:00000001": An unhandled exception was thrown by the application.|System.InvalidOperationException: Writing to the response body is invalid for responses with status code 500.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-04 04:48:16.6544|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.8463ms 500 text/html; charset=utf-8
+2022-08-04 04:48:16.6544|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 34.3138ms 500 
+2022-08-04 04:48:25.0255|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 04:48:25.0340|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.1572ms 500 text/html; charset=utf-8
+2022-08-04 04:49:21.6470|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 04:49:23.9148|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 04:49:24.9649|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 04:49:24.9649|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 04:49:25.0471|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 84.1122ms 200 
+2022-08-04 04:49:25.2470|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 284.7902ms 404 text/plain
+2022-08-04 04:49:25.3470|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2022-08-04 04:49:25.3470|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.6025ms 404 text/plain
+2022-08-04 04:49:25.7954|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 04:49:25.8540|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-08-04 04:49:25.8913|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2022-08-04 04:49:25.9102|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 8.9344ms.
+2022-08-04 04:49:25.9268|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2022-08-04 04:49:25.9268|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 74.0168ms
+2022-08-04 04:49:25.9432|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 145.2795ms 204 
+2022-08-04 04:50:17.6349|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 04:50:19.5003|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 04:50:19.8744|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception|System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' option must be set in 'UseExceptionHandler()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticSource diagnosticSource)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2022-08-04 04:50:20.1565|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 04:50:20.1565|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 04:50:20.1839|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.9892ms 500 text/html; charset=utf-8
+2022-08-04 04:50:20.1848|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29.9513ms 500 
+2022-08-04 04:50:33.0200|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 04:50:33.0200|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.2788ms 500 text/html; charset=utf-8
+2022-08-04 04:55:51.6680|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 04:55:54.2250|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 04:55:54.6818|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception|System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' option must be set in 'UseExceptionHandler()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticSource diagnosticSource)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2022-08-04 04:55:54.9492|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 04:55:54.9492|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 04:55:54.9492|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 04:55:55.0169|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJLLEQ1MI97", Request id "0HMJLLEQ1MI97:00000001": An unhandled exception was thrown by the application.|System.ArgumentOutOfRangeException: Index and count must refer to a location within the buffer.
+Parameter name: chars
+   at System.Text.EncoderNLS.GetBytes(Char[] chars, Int32 charIndex, Int32 charCount, Byte[] bytes, Int32 byteIndex, Boolean flush)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.Extensions.RazorViews.BaseView.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-04 04:55:55.0169|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJLLEQ1MI96", Request id "0HMJLLEQ1MI96:00000001": An unhandled exception was thrown by the application.|System.OverflowException: Arithmetic operation resulted in an overflow.
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.Extensions.RazorViews.BaseView.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-04 04:55:55.0169|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJLLEQ1MI98", Request id "0HMJLLEQ1MI98:00000001": An unhandled exception was thrown by the application.|System.OverflowException: Arithmetic operation resulted in an overflow.
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-04 04:55:55.0351|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.7936ms 500 
+2022-08-04 04:55:55.0351|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.9125ms 500 text/html; charset=utf-8
+2022-08-04 04:55:55.0351|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.7942ms 500 
+2022-08-04 04:58:24.1792|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 04:58:26.0247|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 04:58:26.4099|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception|System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' option must be set in 'UseExceptionHandler()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticSource diagnosticSource)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2022-08-04 04:58:26.8305|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 04:58:26.8305|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 04:58:26.8560|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJLLG7AI8TA", Request id "0HMJLLG7AI8TA:00000001": An unhandled exception was thrown by the application.|System.InvalidOperationException: Writing to the response body is invalid for responses with status code 500.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-04 04:58:26.8642|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 35.7362ms 500 
+2022-08-04 04:58:26.8642|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 35.492ms 500 text/html; charset=utf-8
+2022-08-04 04:58:47.9599|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 04:58:50.0367|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 04:58:50.4320|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception|System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' option must be set in 'UseExceptionHandler()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticSource diagnosticSource)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2022-08-04 04:58:50.6631|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 04:58:50.6631|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 04:58:50.6901|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJLLGEDP1KE", Request id "0HMJLLGEDP1KE:00000001": An unhandled exception was thrown by the application.|System.InvalidOperationException: Writing to the response body is invalid for responses with status code 500.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-04 04:58:50.6901|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 38.0388ms 500 text/html; charset=utf-8
+2022-08-04 04:58:50.6901|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 38.5946ms 500 
+2022-08-04 04:58:50.8454|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2022-08-04 04:58:50.8454|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.0966ms 500 text/html; charset=utf-8
+2022-08-04 04:59:12.0718|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 04:59:14.1334|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 04:59:14.7806|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 04:59:14.7806|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 04:59:14.8429|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 64.9383ms 200 
+2022-08-04 04:59:15.0315|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 257.1908ms 404 text/plain
+2022-08-04 04:59:15.1401|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2022-08-04 04:59:15.1532|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15.0688ms 404 text/plain
+2022-08-04 04:59:20.2449|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 04:59:20.2876|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-08-04 04:59:20.3236|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2022-08-04 04:59:20.3395|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 10.4095ms.
+2022-08-04 04:59:20.3524|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2022-08-04 04:59:20.3581|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 65.3539ms
+2022-08-04 04:59:20.3581|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 121.3979ms 204 
+2022-08-04 04:59:57.2679|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 04:59:59.0249|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 04:59:59.5808|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception|System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' option must be set in 'UseExceptionHandler()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticSource diagnosticSource)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2022-08-04 04:59:59.8166|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 04:59:59.8166|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 04:59:59.8461|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJLLH319TOS", Request id "0HMJLLH319TOS:00000001": An unhandled exception was thrown by the application.|System.InvalidOperationException: Writing to the response body is invalid for responses with status code 500.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WriteAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-04 04:59:59.8461|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.877ms 500 text/html; charset=utf-8
+2022-08-04 04:59:59.8635|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 43.8941ms 500 
+2022-08-04 05:00:06.4976|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 05:00:06.5166|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.8624ms 500 text/html; charset=utf-8
+2022-08-04 05:12:10.0584|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 05:12:12.2105|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 05:12:12.6140|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception|System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' option must be set in 'UseExceptionHandler()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticSource diagnosticSource)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2022-08-04 05:12:12.8794|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 05:12:12.8794|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 05:12:12.9141|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 40.258ms 500 text/html; charset=utf-8
+2022-08-04 05:12:12.9224|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJLLNTG6U4F", Request id "0HMJLLNTG6U4F:00000001": An unhandled exception was thrown by the application.|System.ObjectDisposedException: Cannot write to the response body, the response has completed.
+Object name: 'HttpResponseStream'.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.ValidateState(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Dispose(Boolean disposing)
+   at System.IO.TextWriter.Dispose()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-04 05:12:12.9224|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 55.35ms 500 
+2022-08-04 05:12:13.0448|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2022-08-04 05:12:13.0448|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.8603ms 500 text/html; charset=utf-8
+2022-08-04 05:16:05.2030|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 05:16:07.3738|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 05:16:07.7837|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception|System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' option must be set in 'UseExceptionHandler()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticSource diagnosticSource)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2022-08-04 05:16:08.1977|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 05:16:08.1977|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 05:16:08.2285|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 35.6542ms 500 text/html; charset=utf-8
+2022-08-04 05:16:08.2390|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJLLQ3KJGK3", Request id "0HMJLLQ3KJGK3:00000001": An unhandled exception was thrown by the application.|System.ObjectDisposedException: Cannot write to the response body, the response has completed.
+Object name: 'HttpResponseStream'.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.ValidateState(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-04 05:16:08.2495|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.5745ms 500 
+2022-08-04 05:16:14.2050|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 05:16:14.2165|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.4974ms 500 text/html; charset=utf-8
+2022-08-04 05:18:36.2452|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 05:18:38.2713|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 05:18:39.0582|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 05:18:39.0582|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 05:18:39.1318|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 76.0517ms 200 
+2022-08-04 05:18:39.3625|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 311.7581ms 404 text/plain
+2022-08-04 05:18:39.4861|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2022-08-04 05:18:39.4981|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16.5153ms 404 text/plain
+2022-08-04 05:18:46.1304|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 05:18:46.1826|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-08-04 05:18:46.2123|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2022-08-04 05:18:46.2322|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 13.4187ms.
+2022-08-04 05:18:46.2322|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2022-08-04 05:18:46.2467|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 59.4996ms
+2022-08-04 05:18:46.2467|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 121.5581ms 204 
+2022-08-04 05:21:34.9752|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 05:21:36.7495|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 05:21:37.2181|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception|System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' option must be set in 'UseExceptionHandler()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticSource diagnosticSource)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2022-08-04 05:21:37.4325|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 05:21:37.4325|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 05:21:37.4847|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 58.9158ms 500 text/html; charset=utf-8
+2022-08-04 05:21:37.5023|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMJLLT5OD5R9", Request id "0HMJLLT5OD5R9:00000001": An unhandled exception was thrown by the application.|System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.String.Join(String separator, IEnumerable`1 values)
+   at Microsoft.Extensions.RazorViews.BaseView.EndWriteAttribute()
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-08-04 05:21:37.5164|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.3576ms 500 
+2022-08-04 05:21:44.4294|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 05:21:44.4438|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13.6736ms 500 text/html; charset=utf-8
+2022-08-04 05:22:31.3419|INFO|CityInfo.API.Program|Initializing application...
+2022-08-04 05:22:33.0800|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ADEEL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-04 05:22:33.8849|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2022-08-04 05:22:33.8849|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2022-08-04 05:22:33.9389|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.04ms 200 
+2022-08-04 05:22:34.1084|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 229.0026ms 404 text/plain
+2022-08-04 05:22:34.2309|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2022-08-04 05:22:34.2425|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15.8173ms 404 text/plain
+2022-08-04 05:22:41.4623|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2022-08-04 05:22:41.5198|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2022-08-04 05:22:41.5524|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2022-08-04 05:22:41.5742|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 9.4091ms.
+2022-08-04 05:22:41.5856|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2022-08-04 05:22:41.5925|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 66.5532ms
+2022-08-04 05:22:41.5925|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 136.4385ms 204 
